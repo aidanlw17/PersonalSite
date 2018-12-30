@@ -1,0 +1,17 @@
+<% include ./partials/header %>
+
+<div class="container">
+	<div class="jumbotron">
+		<h2>The Blog Spot</h2>
+		<h5>Providing a sneak peak into my everyday life, and insights on the world around me</h5>
+	</div>
+
+	<% blogs.forEach(function(blog){ %>
+		<h3><%= blog.title %></h3>
+		<img href="<%= blog.image %>">
+		<span><%= blog.created %></span>
+		<p><%= blog.body %></p>
+	<% }); %>
+</div>
+
+<% include ./partials/footer %>

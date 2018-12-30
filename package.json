@@ -1,0 +1,20 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "Personal advertising website and resume for Aidan Lawford-Wickham's business ventures",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aidan Lawford-Wickham",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.4",
+    "request": "^2.87.0"
+  }
+}
